@@ -42440,6 +42440,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 991px) {
   .u-footer .u-text-1 {
+    margin-top: 20px;
     margin-left: 108px;
     margin-right: 195px;
   }
@@ -42451,10 +42452,18 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 575px) {
+  .u-footer .u-sheet-1 {
+    min-height: 208px;
+  }
+
+  .u-footer .u-social-icons-1 {
+    margin-top: 126px;
+    margin-right: -18px;
+  }
+
   .u-footer .u-text-1 {
-    width: 340px;
-    margin-left: 0;
-    margin-right: 0;
+    width: auto;
+    margin: -92px 50px 60px -50px;
   }
 }
 
